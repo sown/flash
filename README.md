@@ -9,5 +9,5 @@ This repository contains scripts (typically Python) for flashing various devices
 ./ar150.py /PATH/TO/FIRMWARE/IMAGE.bin
 ```
 4. Hold down the **reset** button and plug in the power lead to the node.
-5. Wait for the ar150-flash script to display **Starting HTTPD...** and then release the reset button.
-6. Wait for the ar150-flash script to display **==== NEXT NODE PLEASE! ====**, then unplug the node. 
+5. Wait for the script to display **Starting HTTPD...** and then release the reset button.
+6. Wait for the script to display **==== NEXT NODE PLEASE! ====** indicating the flashing has been successful. Then unplug the node. 
