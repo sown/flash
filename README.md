@@ -3,8 +3,8 @@ This repository contains scripts (typically Python) for flashing various devices
 
 ## AR150
 1. Bring up the wired interface on your computer on the IP address **192.168.1.2** with a subnet mask of **255.255.255.0**.
-2. Plug in a network cable between your computer and the node.  It should not matter which interface Ethernet socket but the **WAN** socket is technically the more appropriate choice. 
-3. Run the ar150.py script specifying the , using the command below, substituting the variables shown in capitals:
+2. Plug in a network cable between your computer and the node.  It should not matter which Ethernet socket but the **WAN** socket is technically the more appropriate choice. 
+3. Run the ar150.py script using the command below, substituting the variables shown in capitals:
 ```
 ./ar150.py /PATH/TO/FIRMWARE/IMAGE.bin
 ```
